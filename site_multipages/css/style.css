@@ -2,7 +2,6 @@
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
-	font-family: "Courier New", Courier, monospace;
 }
 
 header {
@@ -48,8 +47,10 @@ header a button {
 
 h1 {
 	color: #2980b9;
-	font-size: 38px;
+	font-size: 45px;
 	margin-left: -300px;
+	font-family: "Anton", sans-serif;
+	font-weight: 800;
 }
 
 .clear {
@@ -57,35 +58,42 @@ h1 {
 }
 
 .ancreNav {
-	display: flex;
-	justify-content: space-between;
-	line-height: 3em;
-	background-color: #2980b9;
+	background: #2980b9;
+	height: 70px;
+	border-bottom: 8px solid #6acafc;
+	text-align: center;
+	padding: 15px;
 }
 
 .ancreNav .unactiv {
-	background-color: #6acafc;
-	border: solid 2px white;
-	border-radius: 100% 0% 100% 0% / 13% 88% 12% 87%;
+	margin: 10px;
+	padding: 2px 10px;
+	border-radius: 10px 0px;
+	border: 2px solid white;
+	background: #6acafc;
+	color: #fff;
 	text-decoration: none;
-	color: white;
-	margin-right: 40px;
-	margin-left: 40px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: oswald;
 	font-weight: 800;
 }
 
-.activ {
+.unactiv:hover {
 	background-color: #2c3e50;
-	border: solid 2px white;
-	border-radius: 100% 0% 100% 0% / 13% 88% 12% 87%;
+	transition: 0.5s;
+}
+
+.activ {
+	margin: 10px;
+	padding: 2px 10px;
+	border-radius: 10px 0px;
+	border: 2px solid white;
+	background: #2c3e50;
+	color: #fff;
 	text-decoration: none;
-	color: white;
-	margin-right: 40px;
-	margin-left: 40px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: oswald;
+	transition: 0.5s;
 	font-weight: 800;
 }
 
@@ -104,13 +112,6 @@ section {
 	background-color: #dcdfe3;
 	width: 1100px;
 	height: 80px;
-}
-
-#bleu {
-	background-color: #6acafc;
-	color: #6acafc;
-	line-height: 8px;
-	font-size: 8px;
 }
 
 footer {
