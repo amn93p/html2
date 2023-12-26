@@ -1,0 +1,106 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+}
+
+header {
+	background-color: #2c3e50;
+	height: 165px;
+}
+
+header a {
+	color: #2980b9;
+	height: 165px;
+	text-decoration: none;
+}
+
+header a button {
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	border: none;
+	background: transparent;
+	font-size: 350%;
+	color: #2d5c7f;
+	cursor: pointer;
+}
+
+#logo {
+	display: flex;
+	align-items: center;
+	line-height: 7em;
+	margin-left: 10px;
+}
+
+#slogan {
+	flex: 1;
+	text-align: center;
+}
+
+#social i {
+	font-size: 30px;
+	margin-right: 10px;
+	line-height: 45px;
+	display: block;
+}
+
+h1 {
+	color: #2980b9;
+	font-size: 38px;
+}
+
+.clear {
+	clear: both;
+}
+
+.ancreNav {
+	display: flex;
+	justify-content: space-between;
+	line-height: 3em;
+	background-color: #2980b9;
+}
+
+.ancreNav .unactiv {
+	background-color: #6acafc;
+	border: solid 2px white;
+	border-radius: 100% 0% 100% 0% / 13% 88% 12% 87%;
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+
+.activ {
+	background-color: #2c3e50;
+	border: solid 2px white;
+	border-radius: 100% 0% 100% 0% / 13% 88% 12% 87%;
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	margin-left: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+
+#bleu {
+	background-color: #6acafc;
+	color: #6acafc;
+	line-height: 8px;
+	font-size: 8px;
+}
+
+footer {
+	background-color: #2980b9;
+	text-align: right;
+	line-height: 32px;
+}
+
+footer p {
+	margin-right: 10px;
+}
