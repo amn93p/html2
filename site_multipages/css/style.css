@@ -31,7 +31,7 @@ header a button {
 	display: flex;
 	align-items: center;
 	line-height: 7em;
-	margin-left: 10px;
+	margin-left: 120px;
 }
 
 #slogan {
@@ -49,6 +49,7 @@ header a button {
 h1 {
 	color: #2980b9;
 	font-size: 38px;
+	margin-left: -300px;
 }
 
 .clear {
@@ -86,6 +87,23 @@ h1 {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-weight: 800;
+}
+
+section {
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+#main {
+	background-color: #a6d6c3;
+	width: 1100px;
+	height: 250px;
+}
+
+#main2 {
+	background-color: #dcdfe3;
+	width: 1100px;
+	height: 80px;
 }
 
 #bleu {
