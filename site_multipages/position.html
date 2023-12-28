@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>SiteMultipages - Position</title>
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/styles.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -20,7 +20,7 @@
 		/>
 		<meta name="description" content="Page en HTML/CSS" />
 	</head>
-	<body>
+	<body class="page-transition">
 		<header>
 			<div id="logo">
 				<a href="#logo">
@@ -60,10 +60,79 @@
 				<a href="animation.html" class="unactiv">Animation</a>
 			</div>
 		</nav>
-		<main>
-			<section>
-				<div id="main"></div>
-				<div id="main2"></div>
+		<main class="main3">
+			<h2 class="h12">Position</h2>
+
+			<section class="sec1">
+				<h3 class="h13">Centrer un élément de type block</h3>
+				<div class="centre"></div>
+			</section>
+
+			<section class="sec2">
+				<h3 class="h13">Position Absolute</h3>
+				<p>Carré JAUNE ! Regarde en haut !</p>
+				<div class="absolute"></div>
+			</section>
+
+			<section class="sec3">
+				<h3 class="h13">Position Relative</h3>
+				<div class="relative">
+					<div></div>
+				</div>
+			</section>
+
+			<section class="sec4">
+				<h3 class="h13">Position fixed</h3>
+				<p>Bouton retour vers le haut</p>
+				<button type="button">
+					<i class="fas fa-arrow-circle-up"></i>
+				</button>
+			</section>
+
+			<section class="sec5">
+				<h3 class="h13">Le pourcentage</h3>
+				<div class="trente">30%</div>
+				<div class="cinquante">50%</div>
+				<div class="cent">100%</div>
+			</section>
+
+			<section class="sec6">
+				<h3 class="h13">L'attribut Float</h3>
+
+				<div class="float">1</div>
+				<div class="float">2</div>
+				<div class="float">3</div>
+				<div class="float">4</div>
+				<div class="float clear">5</div>
+				<div class="float">6</div>
+				<div class="float">7</div>
+				<div class="float clear">8</div>
+				<div class="float">9</div>
+				<div class="float clear">10</div>
+			</section>
+
+			<!-- <div class="clear"></div> -->
+
+			<section class="sec7">
+				<h3 class="h13">Exercice sur le Float</h3>
+
+				<div class="zone"></div>
+				<div class="zone1"></div>
+				<div class="zone2"></div>
+				<div class="zone3"></div>
+				<div class="zone4"></div>
+				<div class="zone clear"></div>
+			</section>
+
+			<section class="sec8">
+				<h3 class="h13">Flexbox</h3>
+				<!-- Se place en fonction de l'élément parent -->
+				<article class="flex">
+					<div>1</div>
+					<div>2</div>
+					<div>3</div>
+					<div>4</div>
+				</article>
 			</section>
 		</main>
 		<footer><p>© 2020 Le PoleS</p></footer>

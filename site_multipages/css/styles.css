@@ -34,42 +34,6 @@ header a button {
 	margin-left: 120px;
 }
 
-.page-transition {
-	position: relative;
-	animation: fadeIn 0.5s ease;
-}
-
-@keyframes fadeIn {
-	from {
-		opacity: 0.8;
-		transform: translateY(2px);
-	}
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-@keyframes clignotte {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-	}
-
-	25%,
-	75% {
-		opacity: 0;
-	}
-}
-
-a.unactiv {
-}
-
-a.unactiv:hover {
-	animation: clignotte 5s infinite;
-}
-
 #slogan {
 	flex: 1;
 	text-align: center;
@@ -243,11 +207,6 @@ figcaption {
 	transition: 1.5s;
 }
 
-section {
-	padding-left: 400px;
-	padding-right: 400px;
-}
-
 .centre {
 	width: 500px;
 	height: 200px;
@@ -271,6 +230,7 @@ section {
 	font-size: 22px;
 	font-weight: 200;
 	text-shadow: 1px 1px 2px #aaa;
+	padding-bottom: 25px;
 }
 
 .relative {
@@ -281,16 +241,138 @@ section {
 	position: relative;
 }
 
+.relative div:first-child {
+	width: 50px;
+	height: 50px;
+	background-color: #fff1a8;
+	position: absolute;
+	top: 0%;
+	left: 90%;
+}
+
+.zone {
+	background-color: #3a4750;
+	width: 100%;
+	height: 60px;
+}
+
+.zone2 {
+	background-color: #2d5c7f;
+	width: 25%;
+	height: 180px;
+	float: inline-start;
+}
+
+.zone3 {
+	background-color: #fff1a8;
+	width: 25%;
+	height: 180px;
+	float: inline-start;
+}
+
+.zone4 {
+	background-color: #ff8f56;
+	width: 25%;
+	height: 180px;
+	float: inline-start;
+}
+
+.zone .clear {
+	background-color: #984a59;
+	width: 25%;
+	height: 180px;
+	float: inline-start;
+}
+
+.page-transition {
+	position: relative;
+	animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0.8;
+		transform: translateY(2px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .absolute {
 	width: 100px;
 	height: 100px;
-	background-color: #ffa500;
+	background-color: #ffc353;
 	position: absolute;
 	top: 200px;
 	right: 1650px;
 }
 
-button {
+.trente {
+	color: #f6e1b5;
+	background-color: #3c1b1f;
+	width: 30%;
+	height: 60px;
+	line-height: 60px;
+	font-weight: 900;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.cinquante {
+	color: #f6e1b5;
+	background-color: #b21e4b;
+	width: 50%;
+	line-height: 60px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	font-weight: 900;
+}
+
+.cent {
+	color: #b21e4b;
+	background-color: #e2bf81;
+	width: 100%;
+	line-height: 60px;
+	font-weight: 900;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.float {
+	background-color: #f8d771;
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	margin-right: 12px;
+	margin-bottom: 20px;
+	border: 2px solid #ff0000;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+@keyframes clignotte {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+
+a.unactiv {
+}
+
+a.unactiv:hover {
+	animation: clignotte 5s infinite;
 }
 
 #main {
@@ -307,7 +389,7 @@ button {
 
 .main3 {
 	justify-content: center;
-	width: 1020px;
+	width: 800px;
 	background-color: #dcdfe3;
 	margin-left: 250px;
 	margin: auto;
@@ -321,4 +403,26 @@ footer {
 
 footer p {
 	margin-right: 10px;
+}
+
+p {
+	padding: 15px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 25px;
+	font-weight: 800;
+}
+
+.flex div {
+	background-color: #00008b;
+	width: 100px;
+	height: 100px;
+	border: solid 5px #3333ff;
+	margin-bottom: 10px;
 }
