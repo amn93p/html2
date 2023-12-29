@@ -220,7 +220,7 @@ figcaption {
 	padding-left: 20px;
 	padding-top: 20px;
 	text-shadow: 1px 1px 2px #aaa;
-	padding-bottom: 100px;
+	padding-bottom: 15px;
 }
 
 .h13 {
@@ -355,6 +355,33 @@ figcaption {
 	clear: both;
 }
 
+.tableau table {
+	border-collapse: collapse;
+	border: 2px solid #6495ed;
+	font-weight: bold;
+	margin: auto;
+	width: 80%;
+}
+.tableau thead,
+.tableau tfoot {
+	background: #d0e3fa;
+	border: 1px solid #6495ed;
+}
+.tableau tbody {
+	border: 1px solid #6495ed;
+}
+.tableau th {
+	border: 1px solid #6495ed;
+	padding: 5px;
+	width: 20%;
+}
+.tableau td {
+	border: 1px solid #6495ed;
+	font-size: 80%;
+	padding: 5px;
+	text-align: center;
+}
+
 @keyframes clignotte {
 	0%,
 	50%,
@@ -393,6 +420,162 @@ a.unactiv:hover {
 	background-color: #dcdfe3;
 	margin-left: 250px;
 	margin: auto;
+	padding-bottom: 20px;
+}
+
+#zoning1 header {
+	width: 80%;
+	background-color: #f7f39a;
+	height: 60px;
+	float: center;
+	margin-left: 80px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+
+#zoning1 aside {
+	width: 20%;
+	background-color: #a3de83;
+	height: 400px;
+	clear: both;
+	float: left;
+	margin-left: 80px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+
+#zoning1 section {
+	width: 60%;
+	background-color: #38817a;
+	height: 400px;
+	float: left;
+	margin-left: 0px;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+}
+
+#zoning2 header {
+	width: 68%;
+	background-color: #f8f5e4;
+	height: 60px;
+	float: center;
+	margin-left: 130px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+}
+
+#zoning2 .aside {
+	width: 11%;
+	background-color: #10828c;
+	height: 400px;
+	float: left;
+	margin-left: 130px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+	color: white;
+}
+
+#zoning2 .aside2 {
+	width: 11%;
+	background-color: #10828c;
+	height: 400px;
+	float: left;
+	margin-left: 0px;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+	color: white;
+}
+
+#zoning2 section {
+	width: 46%;
+	background-color: #0e3047;
+	height: 400px;
+	float: left;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+	color: white;
+}
+
+#zoning3 .gauche {
+	width: 40%;
+	background-color: #205d67;
+	height: 500px;
+	margin-left: 80px;
+	float: left;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+	color: white;
+}
+
+#zoning3 .gauche p {
+	padding: 0px;
+}
+
+#zoning3 .droite p {
+	padding: 0px;
+}
+
+#zoning3 .droite {
+	width: 40%;
+	background-color: #639a67;
+	height: 200px;
+	float: left;
+	text-align: center;
+	text-shadow: 1px 1px grey;
+	color: white;
+	height: 500px;
+}
+
+#zoning3 footer {
+	width: 80%;
+	background-color: #d8ebb5;
+	float: left;
+	line-height: 10x;
+	margin-left: 80px;
+	text-align: right;
+	text-shadow: 1px 1px grey;
+}
+
+#zoning3 footer p {
+	padding: 0px;
+	margin: 0px;
+	line-height: 20px;
+}
+
+#zoning3 section {
+	width: 60%;
+	background-color: #38817a;
+	height: 400px;
+	margin-left: 0px;
+	text-align: center;
+	text-shadow: 2px 2px grey;
+}
+
+#zoning4 {
+	border: solid 2px;
+	margin-left: 80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 80%;
+}
+
+#zoning4 header {
+	background-color: #d8dfe2;
+	height: 100px;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 133.7%;
+}
+
+#zoning4 nav {
+	height: 100px;
+}
+
+#zoning4 footer {
+	margin-left: -80px;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 133.7%;
 }
 
 footer {

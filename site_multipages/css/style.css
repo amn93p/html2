@@ -66,6 +66,10 @@ header a button {
 a.unactiv {
 }
 
+.tableau {
+	margin: auto;
+}
+
 a.unactiv:hover {
 	animation: clignotte 5s infinite;
 }
