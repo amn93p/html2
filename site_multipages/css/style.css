@@ -158,6 +158,15 @@ figcaption {
 	align-items: center;
 }
 
+.ancre {
+	color: white;
+	margin-top: -80px;
+	display: flex;
+	justify-content: center;
+}
+
+
+
 .ancreNav {
 	background: #2980b9;
 	height: 70px;
@@ -242,6 +251,7 @@ figcaption {
 	box-shadow: 5px 5px 23px 6px #646464;
 }
 
+
 .rotation360:hover {
 	transform: rotate(360deg);
 	transition: 1.5s;
@@ -292,9 +302,6 @@ section {
 	position: absolute;
 	top: 200px;
 	right: 1650px;
-}
-
-button {
 }
 
 #main {

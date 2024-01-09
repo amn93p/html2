@@ -552,23 +552,43 @@ a.unactiv:hover {
 }
 
 #zoning4 {
+	background-color: white;
 	border: solid 2px;
 	margin-left: 80px;
 	padding-left: 80px;
 	padding-right: 80px;
 	width: 80%;
+	text-align: center;
 }
 
 #zoning4 header {
-	background-color: #d8dfe2;
+	width: 636px;
 	height: 100px;
+	margin-left: -80px;
 	padding-left: 80px;
 	padding-right: 80px;
-	width: 133.7%;
+	background-color: #d8dfe2;
+}
+
+#zoning4 header p {
+}
+
+#zoning4 section {
+	margin-top: 20px;
+	background-color: #176d81;
+	color: white;
+	margin-bottom: 20px;
+	margin-left: -62px;
+	height: 400px;
+	width: 600px;
 }
 
 #zoning4 nav {
-	height: 100px;
+	height: 50px;
+	background-color: #71adb5;
+	border-bottom: 0.4rem solid #6acafc;
+	margin-left: -80px;
+	width: 636px;
 }
 
 #zoning4 footer {
@@ -576,6 +596,73 @@ a.unactiv:hover {
 	padding-left: 80px;
 	padding-right: 80px;
 	width: 133.7%;
+	background-color: #0d3446;
+}
+
+#zoning4 footer p {
+	text-shadow: 1px 1px 1px white;
+}
+
+#zoning5 {
+	border: solid 2px;
+	background-color: #ffa500;
+}
+
+#zoning5 header {
+	background-color: #f8d771;
+	color: white;
+	text-align: center;
+	height: 100px;
+}
+
+#zoning5 nav {
+	background-color: #d6bc6b;
+	color: white;
+	text-align: center;
+	border-bottom: 0.4rem solid #c19718;
+}
+
+#zoning5 section {
+	padding-top: 20px;
+	font-weight: 1000;
+	text-align: center;
+	text-shadow: 0.5px 0.5px 0.5px rgba(255, 255, 255, 0.644);
+}
+
+.z1 {
+	background-color: #d6bc6b;
+	margin-left: 20px;
+	width: 378px;
+	height: 246px;
+	float: left;
+}
+
+.z2 {
+	background-color: #fce38a;
+	margin-left: 398px;
+	width: 378px;
+	height: 246px;
+}
+
+.z3 {
+	background-color: #fce38a;
+	margin-left: 20px;
+	width: 378px;
+	height: 246px;
+	float: left;
+}
+
+.z4 {
+	background-color: #d6bc6b;
+	margin-left: 398px;
+	margin-top: 0px;
+	width: 378px;
+	height: 246px;
+}
+
+#zoning5 footer {
+	margin-top: 20px;
+	background-color: #f8d771;
 }
 
 footer {
@@ -608,4 +695,299 @@ p {
 	height: 100px;
 	border: solid 5px #3333ff;
 	margin-bottom: 10px;
+}
+
+#zoning6 {
+	margin-left: 42px;
+	color: white;
+	text-align: center;
+}
+
+#zoning6 header {
+	width: 758px;
+	background-color: #dcdfe3;
+}
+
+#zoning6 nav {
+	width: 716px;
+	margin-top: -10px;
+	background-color: #0a4c61;
+	line-height: 30px;
+}
+
+#zoning6 aside {
+	background-color: #446878;
+	width: 130px;
+	height: 600px;
+	float: left;
+}
+
+.a {
+	float: left;
+	background-color: #c0c5cd;
+	width: 290px;
+	height: 224px;
+}
+
+.b {
+	float: left;
+	background-color: #203562;
+	width: 296px;
+	height: 224px;
+}
+
+.c {
+	margin-top: -152px;
+	float: left;
+	background-color: #c0c5cd;
+	width: 150px;
+	height: 152px;
+}
+
+.e {
+	margin-top: -152px;
+	margin-left: 287px;
+	width: 150px;
+	height: 152px;
+	float: left;
+	background-color: #c0c5cd;
+}
+
+.d {
+	margin-top: -152px;
+	margin-left: 143px;
+	width: 150px;
+	height: 152px;
+	float: left;
+	background-color: #203562;
+}
+
+.f {
+	margin-top: -152px;
+	margin-left: 436px;
+	width: 150px;
+	height: 152px;
+	float: left;
+	background-color: #203562;
+}
+
+.slideshow {
+	background-color: #314a52;
+	float: left;
+	width: 586px;
+	height: 224px;
+	margin-top: -376px;
+	margin-left: 130px;
+}
+
+.slideshow2 {
+	margin-left: 130px;
+}
+
+#zoning6 footer {
+	width: 716px;
+	background-color: #0b5269;
+}
+
+.haut1 {
+	background-color: #203562;
+	float: left;
+	width: 178px;
+	height: 158px;
+}
+
+.ancre {
+	text-align: center;
+}
+.ancre a {
+	margin: 8px;
+	padding: 5px 10px;
+	border-radius: 15px;
+	background: #2c3e50;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	box-shadow: 0px 0px 10px 3px black;
+	font-family: oswald;
+}
+.ancre a:hover {
+	box-shadow: none;
+	transition-duration: 0.5s;
+	text-shadow: 1px 5px 10px grey;
+}
+
+#lien a {
+	text-decoration: none;
+	color: #2980b9;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+#lien a:hover {
+	color: #f16529;
+}
+
+/****************MENU*********************/
+#menu nav {
+	background: transparent;
+	border: none;
+}
+#menu ul {
+	list-style: none;
+	text-align: center;
+}
+#menu ul li {
+	display: inline-block;
+}
+#menu nav a {
+	padding: 10px;
+	color: grey;
+	text-decoration: none;
+	background: #ddd;
+	transition: 1s ease-in;
+}
+#menu nav a:hover {
+	color: #fff;
+	background: #069;
+}
+
+/*****Menu Déroulant*****/
+#menuDeroulant {
+	height: 650px;
+}
+#menuDeroulant nav {
+	background: transparent;
+	border: none;
+	width: 90%;
+	margin: 0 auto;
+}
+#menuDeroulant nav ul li {
+	float: left;
+	list-style: none;
+	width: 20%;
+}
+#menuDeroulant ul ul {
+	display: none;
+}
+#menuDeroulant nav ul li ul li {
+	border-top: 1px solid #464646;
+	width: 100%;
+}
+#menuDeroulant nav li {
+	-webkit-border-top-left-radius: 25px;
+	-webkit-border-bottom-right-radius: 25px;
+	-moz-border-radius-topleft: 25px;
+	-moz-border-radius-bottomright: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background: #6acafc;
+	font-weight: 800;
+	border: solid 2px white;
+}
+#menuDeroulant nav li a {
+	text-decoration: none;
+	color: #000;
+	padding: 4px 0;
+	display: block;
+}
+#menuDeroulant ul {
+	text-align: center;
+}
+#menuDeroulant nav ul.niveau1 li.sousMenu:hover ul.niveau2 {
+	display: block;
+}
+/****************FIN LIEN & MENU******************/
+
+.haut2 {
+	background-color: #3e588f;
+	float: left;
+	width: 360px;
+	height: 158px;
+}
+
+form {
+	margin: 0 auto;
+}
+
+.formulaire input {
+	margin-bottom: 5%;
+}
+
+.formulaire {
+	margin-left: 15%;
+	display: flex;
+	justify-content: center;
+	background-color: #2c3e50;
+	border-radius: 25px;
+	width: 70%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.formulaire label,
+p,
+#cv {
+	color: white;
+}
+
+.formulaire label {
+	margin-left: -%;
+}
+
+.haut3 {
+	background-color: #203562;
+	width: 178px;
+	height: 158px;
+	float: left;
+}
+
+.h12:hover {
+	margin-left: 5px;
+	transition: 1s;
+}
+
+ul.fruit {
+	list-style: none;
+}
+ul.fruit li {
+	display: inline;
+	margin: 15px;
+}
+li i {
+	font-size: 90%;
+	color: blue;
+}
+li i:hover {
+	font-size: 150%;
+	color: darkred;
+	transition: 0.5s;
+}
+.imbriquee,
+.imbriquee ul {
+	padding-left: 15px;
+}
+.imbriquee {
+	cursor: pointer;
+}
+.imbriquee ul {
+	display: none;
+}
+.europe:hover ul,
+.asie:hover ul {
+	display: block;
+}
+.imbriquee li ul li:hover {
+	font-size: 200%;
+	background: #e74c3c;
+	display: inline;
+	box-shadow: 5px 10px 10px grey;
+	transition-duration: 1s;
+}
+
+li {
+	margin-left: 30px;
+}
+
+dd,
+dt {
+	margin-left: 30px;
 }
